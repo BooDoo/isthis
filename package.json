@@ -1,0 +1,35 @@
+{
+  "name": "isthisagoodbot",
+  "version": "0.9.0",
+  "description": "who can say",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BooDoo/isthis.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "memde"
+  ],
+  "author": "Joel McCoy <joelmccoy+npm@gmail.com> (https://twitter.com/BooDooPerson)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BooDoo/isthis/issues"
+  },
+  "homepage": "https://github.com/BooDoo/isthis#readme",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "child-process-promise": "*",
+    "lodash": "^4.17.5",
+    "mersenne-twister": "^1.1.0",
+    "request": "^2.76.0",
+    "rita": "^1.2.12",
+    "twit": "^2.2.5",
+    "wordfilter": "^0.2.6",
+    "wordnik-as-promised": "*"
+  }
+}
