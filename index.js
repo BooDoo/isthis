@@ -62,7 +62,6 @@ let srcWord = process.argv[2];
 let relWord = process.argv[3];
 let force = !!process.argv[4];
 
-console.log(force);
 tweetMeme(srcWord, relWord, force).
 then(res=>console.log(`ISTHIS twote: ${res.data.id_str}`)).
 catch(console.error);
